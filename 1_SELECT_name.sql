@@ -125,34 +125,34 @@ WHERE
 
 --13
 /* Find the capital and the name where the capital includes the name of the country. */
-select
+SELECT
   capital,
   name
-from
+FROM
   world
-where
-  capital like concat ('%', name, '%');
+WHERE
+  capital LIKE concat ('%', name, '%');
 
 --14
 /* Find the capital and the name where the capital is an extension of name of the country.
  You should include Mexico City as it is longer than Mexico. You should not include Luxembourg as the capital is the same as the country. */
-select
+SELECT
   capital,
   name
-from
+FROM
   world
-where
-  capital like concat ('%', name, '%')
-  and capital not like name;
+WHERE
+  capital LIKE concat ('%', name, '%')
+  AND capital NOT LIKE name;
 
 --15
 /* For Monaco-Ville the name is Monaco and the extension is -Ville.
  Show the name and the extension where the capital is an extension of name of the country. */
-select
+SELECT
   name,
-  replace(capital, name, '') ext
-from
+  REPLACE(capital, name, '') ext
+FROM
   world
-where
-  capital like concat ('%', name, '%')
-  and capital not like name;
+WHERE
+  capital LIKE concat ('%', name, '%')
+  AND capital NOT LIKE name;
