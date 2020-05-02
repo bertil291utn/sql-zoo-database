@@ -119,7 +119,7 @@ ORDER BY
 
 --8
 /* For each country that has had at last 1000 new cases in a single day, show the date of the peak number of new cases.
- WARNING: Check to display in same order as example */
+ WARNING: Check is not to displaying in same order as example */
 SELECT
   name,
   date,
