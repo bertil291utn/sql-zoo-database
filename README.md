@@ -1,10 +1,12 @@
 # Sql Zoo statements
 [SQL Zoo](https://sqlzoo.net/wiki/) is one of the few resources online that actually lets you build and run queries against existing tables. Each tutorial will show you a table and then have you run queries against it to answer specific questions. Some of the queries, particularly at first, are quite simple. They definitely get more challenging towards the end and can be real head scratchers
 
-## Sumary
+## Summary
 This project was solved as completion database lessons at the Microverse program. I've solved almost all required on the SQL ZOO web site
 
-
+<details markdown="block">
+  <summary> Solved solutions </summary>
+  
 **SELECT basics**
 - Some simple queries to get you started
 
@@ -52,6 +54,7 @@ This project was solved as completion database lessons at the Microverse program
 
 **Tutorial DDL**
 - Instructions on how to import data and analyse it in mysql
+</details>
 
 ## Built With
 
